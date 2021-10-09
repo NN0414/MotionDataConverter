@@ -17,7 +17,7 @@ Public Class fMotionDataConverter
 
     Private Sub B_TRANS_Click(sender As Object, e As EventArgs) Handles B_TRANS.Click
         Try
-			Dim OpenFileDialog1 As New OpenFileDialog
+            Dim OpenFileDialog1 As New OpenFileDialog
             OpenFileDialog1.InitialDirectory = "c:\"
             OpenFileDialog1.Filter = "json files (*.json)|*.json"
             OpenFileDialog1.Multiselect = True
